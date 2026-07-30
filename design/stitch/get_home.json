@@ -1,0 +1,28 @@
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\"name\":\"projects/12134940119081608432/screens/7d5702fb5f9d41c5bacd6ff1a6ab2784\",\"title\":\"Paytrace Home Dashboard\",\"screenshot\":{\"name\":\"projects/12134940119081608432/files/0e46a2f5f5104cba94ee854baeb9beec\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1V5OKtCkkROW-f3ckW8T5vVyF47jyhmNEVpTP96g-zbiscb3Nufq5L0OX7Lj88kI-hQIDkJ_jcO3vKpY3cF1k5gFdPxT565QZS3CLydtTruFCTbfqI1fxwHDMsd5PM0LJoqGNYvKhuoviFl_beUmN2_kQInvjjDtFVT_aFfM2M8s6UJEZkiZrOCWQIIaULSKhz4n14gmvEmEZhicCVy6jvBHpi56ZRwV5OFClWeFI24iIp2sMaSBxsNXkg\"},\"htmlCode\":{\"name\":\"projects/12134940119081608432/files/69449441568e4fc6b390e340b332d856\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2I0MTQ1ZDM0NTFjMDQ4ZjdhOTRmYWVjNmIwYzlmOTRiEgsSBxDX-9uE9w8YAZIBJAoKcHJvamVjdF9pZBIWQhQxMjEzNDk0MDExOTA4MTYwODQzMg&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"1768\",\"deviceType\":\"MOBILE\"}",
+        "type": "text"
+      }
+    ],
+    "structuredContent": {
+      "deviceType": "MOBILE",
+      "height": "1768",
+      "htmlCode": {
+        "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2I0MTQ1ZDM0NTFjMDQ4ZjdhOTRmYWVjNmIwYzlmOTRiEgsSBxDX-9uE9w8YAZIBJAoKcHJvamVjdF9pZBIWQhQxMjEzNDk0MDExOTA4MTYwODQzMg&filename=&opi=96797242",
+        "mimeType": "text/html",
+        "name": "projects/12134940119081608432/files/69449441568e4fc6b390e340b332d856"
+      },
+      "name": "projects/12134940119081608432/screens/7d5702fb5f9d41c5bacd6ff1a6ab2784",
+      "screenshot": {
+        "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1V5OKtCkkROW-f3ckW8T5vVyF47jyhmNEVpTP96g-zbiscb3Nufq5L0OX7Lj88kI-hQIDkJ_jcO3vKpY3cF1k5gFdPxT565QZS3CLydtTruFCTbfqI1fxwHDMsd5PM0LJoqGNYvKhuoviFl_beUmN2_kQInvjjDtFVT_aFfM2M8s6UJEZkiZrOCWQIIaULSKhz4n14gmvEmEZhicCVy6jvBHpi56ZRwV5OFClWeFI24iIp2sMaSBxsNXkg",
+        "name": "projects/12134940119081608432/files/0e46a2f5f5104cba94ee854baeb9beec"
+      },
+      "title": "Paytrace Home Dashboard",
+      "width": "780"
+    }
+  }
+}

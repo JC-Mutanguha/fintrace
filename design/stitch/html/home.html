@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Paytrace Home</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "surface": "#FCFDF6",
+            "on-surface": "#1A1C19",
+            "surface-variant": "#DFE4D7",
+            "on-surface-variant": "#43483E",
+            "primary": "#2F6F4E",
+            "on-primary": "#FFFFFF",
+            "primary-container": "#B1F7D0",
+            "on-primary-container": "#002111",
+            "surface-container": "#F4F7EE",
+            "surface-container-low": "#FAFDED",
+            "surface-container-high": "#EEF1E8",
+            "surface-container-highest": "#E8EBE2",
+            "outline": "#73796E",
+            "outline-variant": "#C3C8BB",
+            "error": "#BA1A1A",
+            "on-error": "#FFFFFF",
+            "error-container": "#FFDAD6",
+            "on-error-container": "#410002"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "safe": "env(safe-area-inset-bottom)"
+          },
+          "fontFamily": {
+            "headline": ["Plus Jakarta Sans", "sans-serif"],
+            "display": ["Plus Jakarta Sans", "sans-serif"],
+            "body": ["Manrope", "sans-serif"],
+            "label": ["Manrope", "sans-serif"]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+      background-color: theme('colors.surface');
+      color: theme('colors.on-surface');
+      -webkit-font-smoothing: antialiased;
+    }
+    .hide-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .hide-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    
+    /* Animation for FAB or interaction states could go here if needed, keeping simple for 0.25 effort */
+  </style>
+</head>
+<body class="font-body pb-24 md:pb-8">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-surface flex items-center justify-between px-4 h-16 w-full flat no shadows">
+<div class="flex items-center">
+<button class="p-2 rounded-full hover:bg-surface-container-low transition-colors active:scale-95 duration-100 flex items-center justify-center mr-2 text-on-surface-variant">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">menu</span>
+</button>
+<img alt="Paytrace Wordmark" class="h-8 object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1V0d-GeE3lM58Q3MMeXGoyjCBx-F4U6jQkxawgeH6MmFBy1tW2pjEIK8mqO7-YJijpDkzCrhTRPA680kcm5puPltS4Ok6QZBMP9gGXhvZL7RC7Q-pynPdlkFiP35mRuYMbYNkPN4XTYkl2zMKOkUmYMflUrBaJuWXTzn52UF3qCgaXYi3UzIDLxATK1y_2qn8PWwZbXQ_tp2KuA6iFBKCU9_uC8QPdbiUOCgmhG5bXgNT_34hxh6bE8CqCq"/>
+</div>
+<button class="w-8 h-8 rounded-full overflow-hidden hover:bg-surface-container-low transition-colors active:scale-95 duration-100 ring-2 ring-transparent hover:ring-primary-container">
+<img class="w-full h-full object-cover" data-alt="A professional headshot of a smiling young African professional in a well-lit modern office environment. The image uses a clean, high-key lighting setup highlighting their features gently. The color palette aligns with a modern clean corporate vibe, slightly warm. Shot with a slight depth of field blurring the background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5aPxuluuEgdTu5MDgJTSt-tjVNguTCH-juOYZgzgSxho-ZeCdlMcKpm6rStwQrLM0hTmR2A4O6eH_OKgWZqn-oYOVnUHOs5-m55sfoWS9l7pxUBnD9ZxMWbQazov6RiA9EPoMCTc89cw_pN-6vJFt89lCN5j2Ml838VLqN916BMgbApXmF8nM3zSvmKxrM-gBWhDqIi7HDfHS0dy0wII1Gue0oID3Nj13D27xloSzxmhsJ4jSdSWK31PjgcultvtyOG95MNb4cV9W"/>
+</button>
+</header>
+<!-- Main Content Canvas -->
+<main class="pt-20 px-4 md:px-8 max-w-3xl mx-auto space-y-6">
+<!-- Spend Card -->
+<section class="bg-surface-container-high rounded-3xl p-6 shadow-sm border border-surface-variant">
+<div class="flex justify-between items-start mb-2">
+<h2 class="text-on-surface-variant font-label text-sm font-medium uppercase tracking-wider">This month spent</h2>
+<span class="material-symbols-outlined text-outline" style="font-variation-settings: 'FILL' 0;">trending_up</span>
+</div>
+<div class="mb-6">
+<span class="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-on-surface">145,000 <span class="text-xl md:text-2xl text-on-surface-variant font-medium">RWF</span></span>
+</div>
+<div class="flex flex-row gap-3">
+<button class="flex-1 bg-primary text-on-primary py-3 px-4 rounded-xl font-label font-bold text-sm flex items-center justify-center gap-2 hover:bg-opacity-90 transition-all active:scale-95">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">content_paste</span>
+          Paste SMS
+        </button>
+<button class="flex-1 border-2 border-outline-variant text-primary py-3 px-4 rounded-xl font-label font-bold text-sm flex items-center justify-center gap-2 hover:bg-surface-container-highest transition-all active:scale-95">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 0;">add_circle</span>
+          Add cash
+        </button>
+</div>
+</section>
+<!-- Category Spend -->
+<section>
+<div class="flex justify-between items-center mb-4">
+<h3 class="font-headline text-lg font-bold text-on-surface">Category Spend</h3>
+<button class="text-primary text-sm font-label font-semibold">See all</button>
+</div>
+<div class="flex overflow-x-auto gap-3 pb-2 hide-scrollbar -mx-4 px-4 md:mx-0 md:px-0">
+<button class="flex-shrink-0 bg-primary-container text-on-primary-container px-4 py-2 rounded-full font-label text-sm font-semibold border border-transparent flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">shopping_cart</span>
+          Groceries
+        </button>
+<button class="flex-shrink-0 bg-surface-container-high text-on-surface px-4 py-2 rounded-full font-label text-sm font-medium border border-outline-variant hover:bg-surface-container-highest transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 0;">bolt</span>
+          Electricity
+        </button>
+<button class="flex-shrink-0 bg-surface-container-high text-on-surface px-4 py-2 rounded-full font-label text-sm font-medium border border-outline-variant hover:bg-surface-container-highest transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 0;">receipt_long</span>
+          Bills
+        </button>
+<button class="flex-shrink-0 bg-surface-container-high text-on-surface px-4 py-2 rounded-full font-label text-sm font-medium border border-outline-variant hover:bg-surface-container-highest transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 0;">phone_iphone</span>
+          Airtime
+        </button>
+<button class="flex-shrink-0 bg-surface-container-high text-on-surface px-4 py-2 rounded-full font-label text-sm font-medium border border-outline-variant hover:bg-surface-container-highest transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 0;">directions_bus</span>
+          Transport
+        </button>
+</div>
+</section>
+<!-- Recent Activity -->
+<section>
+<div class="flex justify-between items-center mb-4">
+<h3 class="font-headline text-lg font-bold text-on-surface">Recent Activity</h3>
+<button class="text-primary text-sm font-label font-semibold">See all</button>
+</div>
+<div class="space-y-3">
+<!-- Transaction 1 -->
+<div class="flex items-center justify-between p-4 bg-surface-container rounded-2xl hover:bg-surface-container-high transition-colors cursor-pointer">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-surface-variant text-on-surface-variant flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">phone_iphone</span>
+</div>
+<div>
+<p class="font-label font-bold text-on-surface text-base">Airtel Money - Airtime</p>
+<p class="text-on-surface-variant text-sm mt-0.5">Today, 10:42 AM</p>
+</div>
+</div>
+<div class="text-right">
+<p class="font-headline font-bold text-on-surface">-1,000</p>
+</div>
+</div>
+<!-- Transaction 2 -->
+<div class="flex items-center justify-between p-4 bg-surface-container rounded-2xl hover:bg-surface-container-high transition-colors cursor-pointer">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">shopping_cart</span>
+</div>
+<div>
+<p class="font-label font-bold text-on-surface text-base">Groceries - Kimironko</p>
+<p class="text-on-surface-variant text-sm mt-0.5">Yesterday, 5:15 PM</p>
+</div>
+</div>
+<div class="text-right">
+<p class="font-headline font-bold text-on-surface">-15,500</p>
+</div>
+</div>
+<!-- Transaction 3 -->
+<div class="flex items-center justify-between p-4 bg-surface-container rounded-2xl hover:bg-surface-container-high transition-colors cursor-pointer">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-[#FFF0D4] text-[#7A5B15] flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">bolt</span>
+</div>
+<div>
+<p class="font-label font-bold text-on-surface text-base">Electricity - REG</p>
+<p class="text-on-surface-variant text-sm mt-0.5">Mon, 24 Oct</p>
+</div>
+</div>
+<div class="text-right">
+<p class="font-headline font-bold text-on-surface">-20,000</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-4 py-3 pb-safe bg-surface-container rounded-t-xl shadow-lg z-50 md:hidden">
+<!-- Home (Active) -->
+<button class="flex flex-col items-center justify-center gap-1 bg-primary-container text-on-primary-container rounded-full px-5 py-1.5 active:scale-90 transition-transform duration-150 group">
+<span class="material-symbols-outlined text-on-primary-container" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="font-label text-[11px] font-medium text-on-primary-container">Home</span>
+</button>
+<!-- Paste (Inactive) -->
+<button class="flex flex-col items-center justify-center gap-1 text-on-surface-variant px-5 py-1.5 active:scale-90 transition-transform duration-150 hover:bg-surface-container-high rounded-full">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">content_paste</span>
+<span class="font-label text-[11px] font-medium">Paste</span>
+</button>
+<!-- Activity (Inactive) -->
+<button class="flex flex-col items-center justify-center gap-1 text-on-surface-variant px-5 py-1.5 active:scale-90 transition-transform duration-150 hover:bg-surface-container-high rounded-full">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">history</span>
+<span class="font-label text-[11px] font-medium">Activity</span>
+</button>
+<!-- Insights (Inactive) -->
+<button class="flex flex-col items-center justify-center gap-1 text-on-surface-variant px-5 py-1.5 active:scale-90 transition-transform duration-150 hover:bg-surface-container-high rounded-full">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">analytics</span>
+<span class="font-label text-[11px] font-medium">Insights</span>
+</button>
+</nav>
+</body></html>

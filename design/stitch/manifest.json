@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "settings",
+    "screenId": "925b4deb6603435bb628ea42f3416c4e",
+    "title": "Paytrace Settings",
+    "deviceType": "MOBILE",
+    "width": "780",
+    "height": "2616",
+    "screenshot": "design/stitch/screenshots/settings.png",
+    "html": "design/stitch/html/settings.html"
+  },
+  {
+    "slug": "paytrace-wordmark",
+    "screenId": "54b219bff38c4df5b9174043b8c7cedc",
+    "title": "Paytrace Wordmark",
+    "deviceType": null,
+    "width": "1024",
+    "height": "1024",
+    "screenshot": "design/stitch/screenshots/paytrace-wordmark.png",
+    "html": null
+  },
+  {
+    "slug": "activity",
+    "screenId": "0570d4c06ec8473ea771b5b8692893b3",
+    "title": "Paytrace Expense Tracker Flow",
+    "deviceType": "MOBILE",
+    "width": "390",
+    "height": "884",
+    "screenshot": "design/stitch/screenshots/activity.png",
+    "html": "design/stitch/html/activity.html"
+  },
+  {
+    "slug": "insights",
+    "screenId": "7e9f441023ba4ef1ad7a8caf14261727",
+    "title": "Paytrace Insights",
+    "deviceType": "MOBILE",
+    "width": "780",
+    "height": "2512",
+    "screenshot": "design/stitch/screenshots/insights.png",
+    "html": "design/stitch/html/insights.html"
+  },
+  {
+    "slug": "activity",
+    "screenId": "e22687e59cb441ae8101fb69253a9ef1",
+    "title": "Paytrace Activity History",
+    "deviceType": "MOBILE",
+    "width": "780",
+    "height": "1768",
+    "screenshot": "design/stitch/screenshots/activity.png",
+    "html": "design/stitch/html/activity.html"
+  },
+  {
+    "slug": "home",
+    "screenId": "5494e259a0834234b6ba49a7692a9b69",
+    "title": "Paytrace Home Dashboard",
+    "deviceType": "MOBILE",
+    "width": "780",
+    "height": "2020",
+    "screenshot": "design/stitch/screenshots/home.png",
+    "html": "design/stitch/html/home.html"
+  },
+  {
+    "slug": "home",
+    "screenId": "7d5702fb5f9d41c5bacd6ff1a6ab2784",
+    "title": "Paytrace Home Dashboard",
+    "deviceType": "MOBILE",
+    "width": "780",
+    "height": "1768",
+    "screenshot": "design/stitch/screenshots/home.png",
+    "html": "design/stitch/html/home.html"
+  },
+  {
+    "slug": "paste",
+    "screenId": "e45dfacffa5641c5a794f8bd53b2f2f5",
+    "title": "Paytrace Paste SMS",
+    "deviceType": "MOBILE",
+    "width": "780",
+    "height": "2078",
+    "screenshot": "design/stitch/screenshots/paste.png",
+    "html": "design/stitch/html/paste.html"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "id": 2,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\"name\":\"projects/12134940119081608432/screens/e45dfacffa5641c5a794f8bd53b2f2f5\",\"title\":\"Paytrace Paste SMS\",\"screenshot\":{\"name\":\"projects/12134940119081608432/files/2df310bc178441ee89e42ec606fbcf95\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1XHl9fq71q0RF7zytk-TrAMc_BLsCQhlGO4v52knk-PWa-25Ph-poAvAagax3hpy6GnptkR3CUrJgJclVUPiaZ4rtJBjGzuMyjyt1BAvf5pfLmrMyKl4SXpFMyrTc3li8mZrt8_ZwXZ6eK4ouDCHoFJ06XP-ea9Ls6GZtbg8cm7li1BNa9ZdVJCK3QtdzzSvHlWVm3rrGvkS4icCqh54KYULaMpuUMo2dbg4GcGM9qdmwB3Q6hrad--0_O-\"},\"htmlCode\":{\"name\":\"projects/12134940119081608432/files/6be31c3214b7415ea006e652406e58cc\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzNmNDQyMDEyMjY2ZDQyZTlhNWYyNGRmZjRmYTc3OWJmEgsSBxDX-9uE9w8YAZIBJAoKcHJvamVjdF9pZBIWQhQxMjEzNDk0MDExOTA4MTYwODQzMg&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"2078\",\"deviceType\":\"MOBILE\"}",
+        "type": "text"
+      }
+    ],
+    "structuredContent": {
+      "deviceType": "MOBILE",
+      "height": "2078",
+      "htmlCode": {
+        "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzNmNDQyMDEyMjY2ZDQyZTlhNWYyNGRmZjRmYTc3OWJmEgsSBxDX-9uE9w8YAZIBJAoKcHJvamVjdF9pZBIWQhQxMjEzNDk0MDExOTA4MTYwODQzMg&filename=&opi=96797242",
+        "mimeType": "text/html",
+        "name": "projects/12134940119081608432/files/6be31c3214b7415ea006e652406e58cc"
+      },
+      "name": "projects/12134940119081608432/screens/e45dfacffa5641c5a794f8bd53b2f2f5",
+      "screenshot": {
+        "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1XHl9fq71q0RF7zytk-TrAMc_BLsCQhlGO4v52knk-PWa-25Ph-poAvAagax3hpy6GnptkR3CUrJgJclVUPiaZ4rtJBjGzuMyjyt1BAvf5pfLmrMyKl4SXpFMyrTc3li8mZrt8_ZwXZ6eK4ouDCHoFJ06XP-ea9Ls6GZtbg8cm7li1BNa9ZdVJCK3QtdzzSvHlWVm3rrGvkS4icCqh54KYULaMpuUMo2dbg4GcGM9qdmwB3Q6hrad--0_O-",
+        "name": "projects/12134940119081608432/files/2df310bc178441ee89e42ec606fbcf95"
+      },
+      "title": "Paytrace Paste SMS",
+      "width": "780"
+    }
+  }
+}

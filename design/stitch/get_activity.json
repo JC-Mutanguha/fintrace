@@ -1,0 +1,28 @@
+{
+  "id": 3,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\"name\":\"projects/12134940119081608432/screens/e22687e59cb441ae8101fb69253a9ef1\",\"title\":\"Paytrace Activity History\",\"screenshot\":{\"name\":\"projects/12134940119081608432/files/c7fc325ac328402faec8909eb864311f\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1VRwyiS1wwCyxJypRGSYwtg6fF306V9lyHj2Jz5fW-I-ijhwLo_OFgh9pXlTU_DAiE1XxfBJgfeCysI7g5MOejw6-TBRqPqzFr9WvSrGxrpvSixKn2BkbCE9bhZpMONa9-Q0U_AXJgNwgg6RV1-2NRoiC1HMTluLhP26vUgNly9uAJHZO5KVq9mUlZMt_Giv0wbkOI4Gg00Xo7cBet1kB26FKAezvx0KuWfRWmTACTiIfyi9y4hXexfCHw\"},\"htmlCode\":{\"name\":\"projects/12134940119081608432/files/d615b57c8f024e3a92c3a1b404cee72c\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2QxNjM2NjNiZjI0NDQwNjdiNzc2YTdjOWEzMDBhYTcyEgsSBxDX-9uE9w8YAZIBJAoKcHJvamVjdF9pZBIWQhQxMjEzNDk0MDExOTA4MTYwODQzMg&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"1768\",\"deviceType\":\"MOBILE\"}",
+        "type": "text"
+      }
+    ],
+    "structuredContent": {
+      "deviceType": "MOBILE",
+      "height": "1768",
+      "htmlCode": {
+        "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2QxNjM2NjNiZjI0NDQwNjdiNzc2YTdjOWEzMDBhYTcyEgsSBxDX-9uE9w8YAZIBJAoKcHJvamVjdF9pZBIWQhQxMjEzNDk0MDExOTA4MTYwODQzMg&filename=&opi=96797242",
+        "mimeType": "text/html",
+        "name": "projects/12134940119081608432/files/d615b57c8f024e3a92c3a1b404cee72c"
+      },
+      "name": "projects/12134940119081608432/screens/e22687e59cb441ae8101fb69253a9ef1",
+      "screenshot": {
+        "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1VRwyiS1wwCyxJypRGSYwtg6fF306V9lyHj2Jz5fW-I-ijhwLo_OFgh9pXlTU_DAiE1XxfBJgfeCysI7g5MOejw6-TBRqPqzFr9WvSrGxrpvSixKn2BkbCE9bhZpMONa9-Q0U_AXJgNwgg6RV1-2NRoiC1HMTluLhP26vUgNly9uAJHZO5KVq9mUlZMt_Giv0wbkOI4Gg00Xo7cBet1kB26FKAezvx0KuWfRWmTACTiIfyi9y4hXexfCHw",
+        "name": "projects/12134940119081608432/files/c7fc325ac328402faec8909eb864311f"
+      },
+      "title": "Paytrace Activity History",
+      "width": "780"
+    }
+  }
+}
