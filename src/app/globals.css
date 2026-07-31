@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+@theme {
+  /* ── Colors ── */
+  --color-surface: #f9f9f7;
+  --color-background: #f9f9f7;
+  --color-on-surface: #1a1c1b;
+  --color-on-background: #181d1a;
+  --color-on-surface-variant: #404942;
+  --color-primary: #115637;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #2f6f4e;
+  --color-on-primary-container: #ffffff;
+  --color-primary-fixed-dim: #99d3b0;
+  --color-surface-container: #ecefea;
+  --color-surface-container-low: #f4f4f1;
+  --color-surface-container-high: #e6e9e4;
+  --color-surface-container-highest: #e0e3de;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-variant: #e0e3de;
+  --color-outline: #707972;
+  --color-outline-variant: #c0c9c0;
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-secondary: #4b6453;
+  --color-secondary-container: #cee6d4;
+  --color-on-secondary-container: #506a59;
+  --color-tertiary: #2c676a;
+  --color-tertiary-container: #478083;
+  --color-warning-container: #fff0d4;
+  --color-on-warning-container: #7a5b15;
+  --color-scrim: rgb(0 0 0 / 0.4);
+
+  /* ── Fonts ── */
+  --font-headline: var(--font-plus-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-plus-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-label: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+
+  /* ── Typography scale (use text-title, text-display, etc.) ── */
+  --text-display: 2rem;
+  --text-display--line-height: 2.5rem;
+  --text-title: 1.75rem;
+  --text-title--line-height: 2.25rem;
+  --text-heading: 1.25rem;
+  --text-heading--line-height: 1.75rem;
+  --text-body: 1rem;
+  --text-body--line-height: 1.5rem;
+  --text-label-size: 0.875rem;
+  --text-label-size--line-height: 1.25rem;
+  --text-caption: 0.75rem;
+  --text-caption--line-height: 1rem;
+  --text-micro: 0.6875rem;
+  --text-micro--line-height: 0.875rem;
+
+  /* ── Spacing (app layout — do NOT use max-w-md/sm/lg; they map here) ── */
+  --spacing-xs: 4px;
+  --spacing-base: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-gutter: 16px;
+  --spacing-lg: 24px;
+  --spacing-margin: 24px;
+  --spacing-xl: 32px;
+  --spacing-safe: env(safe-area-inset-bottom);
+
+  /* ── Widths (use max-w-dialog, max-w-content — NOT max-w-md) ── */
+  --container-dialog: 28rem;
+  --container-sheet: 24rem;
+  --container-content: 42rem;
+  --container-narrow: 20rem;
+
+  /* ── Radius (DESIGN.md: 12px card) ── */
+  --radius-card: 0.75rem;
+  --radius-sheet: 1rem;
+  --radius-pill: 9999px;
+
+  /* ── Z-index ── */
+  --z-index-overlay: 90;
+  --z-index-lock: 100;
+}
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior-y: none;
+  }
+
+  body {
+    background-color: var(--color-surface-container-high);
+    color: var(--color-on-surface);
+    font-family: var(--font-body);
+    font-size: var(--text-body);
+    line-height: var(--text-body--line-height);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    overscroll-behavior-y: contain;
+  }
+
+  button,
+  a,
+  [role="button"] {
+    touch-action: manipulation;
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+    user-select: none;
+  }
+}
+
+@utility hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@utility pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+@utility pt-safe {
+  padding-top: env(safe-area-inset-top);
+}
+
+@utility max-w-dialog {
+  max-width: var(--container-dialog);
+}
+
+@utility max-w-sheet {
+  max-width: var(--container-sheet);
+}
+
+@utility max-w-content {
+  max-width: var(--container-content);
+}
+
+@utility max-w-narrow {
+  max-width: var(--container-narrow);
+}
+
+@utility rounded-card {
+  border-radius: var(--radius-card);
+}
+
+@utility rounded-sheet {
+  border-radius: var(--radius-sheet);
+}
+
+@utility bg-scrim {
+  background-color: var(--color-scrim);
+}
+
+@utility z-overlay {
+  z-index: var(--z-index-overlay);
+}
+
+@utility z-lock {
+  z-index: var(--z-index-lock);
+}
