@@ -1,0 +1,34 @@
+{
+  "name": "FinTrace",
+  "short_name": "FinTrace",
+  "description": "Personal finance management. Track money in and out, categories, and insights.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F9F9F7",
+  "theme_color": "#115637",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "share_target": {
+    "action": "/paste",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
