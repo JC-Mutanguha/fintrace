@@ -18,7 +18,6 @@ FinTrace helps you manage everyday finances in one place. Add payments manually 
 
 - **Next.js 16** (App Router) + TypeScript + Tailwind CSS v4
 - **InsForge** — auth, Postgres, API (`@insforge/sdk`)
-- **Design** — [Google Stitch](https://stitch.withgoogle.com/project/12134940119081608432)
 
 ## Getting started
 
